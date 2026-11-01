@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ZenFocus</string>
+    <string name="app_name_disguise_calc">Calculator</string>
+    <string name="app_name_disguise_clock">Clock</string>
+    <string name="app_name_disguise_notes">Notes</string>
+    <string name="app_name_disguise_weather">Weather</string>
+    <string name="app_name_disguise_settings">System Tools</string>
+
+    <!-- Services & Accessibility -->
+    <string name="accessibility_service_description">ZenFocus Accessibility Service inspects browser address bars to block configured distracting websites and intercepts addictive short-form video features (such as YouTube Shorts and Instagram Reels) without routing network traffic through any VPN.</string>
+    <string name="foreground_service_title">ZenFocus Active Protection</string>
+    <string name="foreground_service_description">Monitoring screen time and enforcing focus profiles.</string>
+    <string name="special_use_fgs_reason">Enforcing user-defined screen time quotas and application blocking rules locally on device.</string>
+
+    <!-- Notification Channel -->
+    <string name="notification_channel_name">Focus Protection Service</string>
+    <string name="notification_channel_description">Persistent notification required by Android to keep focus blocking active.</string>
+
+    <!-- Device Admin -->
+    <string name="device_admin_description">ZenFocus Device Administrator privileges prevent accidental or impulsive uninstallation while Strict Mode is active.</string>
+
+    <!-- Overlay & Lock Screen -->
+    <string name="overlay_stay_focused_title">Stay Focused</string>
+    <string name="overlay_app_blocked_subtitle">%1$s is currently blocked by your "%2$s" focus profile.</string>
+    <string name="overlay_button_close">Close App</string>
+    <string name="overlay_button_emergency">Emergency Unblock</string>
+    <string name="overlay_quote_1">"Focus is a muscle. Every time you resist distraction, you build mental strength."</string>
+    <string name="overlay_quote_2">"Do not give up what you want most for what you want now."</string>
+    <string name="overlay_quote_3">"The secret of change is to focus all your energy not on fighting the old, but on building the new."</string>
+
+    <!-- Strict Mode -->
+    <string name="strict_mode_title">Strict Mode (Anti-Tamper)</string>
+    <string name="strict_mode_active_warning">Strict Mode is engaged! You cannot edit or disable this profile until the deactivation condition is met.</string>
+    <string name="strict_mode_charger_hint">Connect your phone to a physical charging cable to unlock.</string>
+</resources>
